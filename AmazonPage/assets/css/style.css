@@ -1,0 +1,139 @@
+/*BODY*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.65;
+    background-color: #E9EDEE;
+}
+*{box-sizing: border-box;}
+*{max-width: 100%;}
+
+h1 {
+    font-size: 2.1em;
+    font-weight: 700;
+    padding: 1vh 1vh 2vh 1vh;
+    margin-top: 2vh;
+}
+
+h2 {
+    display: block;
+    text-align: left;
+    padding: 2vh 0vh 1vh 3vh;
+}
+
+main, footer {
+    text-align: center;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+}
+
+.linkShop {
+    display: inline-block;
+    padding-left: 3vh;
+    font-size: 0.8em;
+    color: #197075;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bg-darkBlue {
+    background-color: #222F3F;
+}
+
+.bg-mediumBlue {
+    background-color: #364759;
+}
+
+.colorWhite {
+    color: white;
+}
+
+
+/*HEADER*/
+header img {
+    padding: 1.5vh 1.5vh 0.7vh 5.5vh;
+    width: 27vh;
+}
+nav {
+    padding-left: 1.5vw;
+}
+li {
+    display:inline-block;
+    font-size: 1em;
+    padding: 0.7vh 0.8vw;
+}
+
+
+/*MAIN*/
+main {
+    margin: 5vh;
+}
+
+.box {
+    display: inline-block;
+    margin: 1vh 3vh 0vh 3vh;
+    width: 43vh;
+    height: 50vh;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;               
+    box-shadow: 8px 4px 20px -3px rgba(0,0,0,0.47);
+}
+
+.consigliPrimo, .consigliSecondo p {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.consigliPrimo {
+    display: block;
+    padding-bottom: 2vh;
+    margin-top: 5vh;
+
+    background-color: white;
+}
+
+.consigliSecondo {
+    margin-top: 1vh;
+    padding-top: 4vh;
+    }
+
+#miniTitle {
+    background-color: #EF6809;
+    padding: 0.5vh;
+    margin: 5vh 0vh 5vh 0vh;
+}
+#bg-image {
+    background-image: url(/AmazonPage/assets/images/bg-image.png);
+    padding: 5vh;
+    color: white;
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 100%; 
+}
+
+#bg-image p {
+    font-weight: 600;
+    padding: 0vh 2vh 2vh 2vh;;
+}
+
+
+/* FOOTER */ 
+footer a {
+    display: block;
+    padding: 1.8vh;
+    font-size: 3vh;
+    
+}
+
+footer img {
+    padding: 11vh 9vh 9vh 9vh;
+    width: 50vh;
+}
